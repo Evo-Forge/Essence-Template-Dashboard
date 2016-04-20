@@ -10,7 +10,7 @@ class DashboardMain extends React.Component {
         return (
           <Block>
               <Block classes={'e-container'}>
-                <Block classes={'dashboard-main e-background-white'}>
+                <Block classes={'dashboard-main e-background-white e-shadow-2'}>
                   <DashboardHeader />
                 </Block>
               </Block>
