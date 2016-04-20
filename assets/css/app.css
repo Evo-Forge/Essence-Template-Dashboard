@@ -1,6 +1,28 @@
 .dashboard-main {
   height: 800px;
 }
+.dashboard-header .e-appbar {
+  position: relative;
+  box-shadow: none;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  line-height: 64px;
+}
+.dashboard-header .e-appbar i {
+  font-size: 20px;
+  vertical-align: middle;
+  padding: 0 5px;
+}
+.dashboard-header .e-appbar ul {
+  height: inherit;
+}
+.dashboard-header .e-appbar a {
+  vertical-align: middle;
+}
+.dashboard-header .flex {
+  display: flex;
+  justify-content: space-between;
+}
 body {
   background: #81c784;
   /* For browsers that do not support gradients */
