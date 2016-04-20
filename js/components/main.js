@@ -15,6 +15,12 @@ class DashboardMain extends React.Component {
 
               </Block>
             </Block>
+          <Block>
+              <Block classes={'e-container'}>
+                <Block classes={'dashboard-main e-background-white'}>
+                  <DashboardHeader />
+                </Block>
+              </Block>
           </Block>
         );
     }
