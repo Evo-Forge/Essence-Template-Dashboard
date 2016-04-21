@@ -1,24 +1,25 @@
 .dashboard-header {
-  .e-appbar {
-    position: relative;
-    box-shadow: none;
-    border-bottom: 1px solid #eee;
-    font-size: 14px;
-    line-height: 64px;;
-    i {
-      font-size: 20px;
-      vertical-align: middle;
-      padding: 0 5px;
-    }
-    ul {
-      height: inherit;
-    }
-    a {
-      vertical-align: middle;
-    }
+  width: 100%;
+  .full-w {
+    width: 100%;
   }
+  font-size: 14px;
   .flex {
     display: flex;
-    justify-content: space-between;;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    &.v-stretch {
+      align-items: stretch;
+    }
+  }
+
+  i {
+    font-size: 20px;
+    vertical-align: middle;
+    padding: 0 5px;
+  }
+  a {
+    vertical-align: middle;
   }
 }
