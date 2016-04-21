@@ -20,7 +20,7 @@ class DashboardReply extends React.Component {
               <Text classes={'e-subhead e-text-black'}>Michael Myers</Text>
             </Block>
             <Block classes={'e-flex-container space-between e-align-row'}>
-              <Text classes={'e-body1 e-text-grey-400'}>12.20 AM Jan 12th, 2016</Text>
+              <Text classes={'e-body1 e-text-grey-400'}>10.34 AM Jan 12th, 2016</Text>
             </Block>
           </Block>
         </Block>
