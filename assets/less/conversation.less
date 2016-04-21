@@ -1,3 +1,37 @@
 .dashboard-conversation {
-
+  .e-flex-container {
+    display: flex;
+    &.e-align-row {
+      flex-direction: row;
+      align-items: center;
+    }
+    &.space-between {
+      justify-content: space-between;
+    }
+    &.space-around {
+      justify-content: space-around;
+    }
+  }
+  img {
+    max-height: 80px;
+    padding: 10px 15px 10px 0;
+  }
+  .adjust-w {
+    width: 100%;
+  }
+  .from {
+    width: 43%;
+  }
+  .reply {
+    border-top: 1px solid lightgrey;
+  }
+  .reply-form {
+    border: 1px solid lightgrey;
+    .e-input, .e-input:focus {
+      border-bottom: 0;
+    }
+    .e-input-efects {
+      display: none;
+    }
+  }
 }

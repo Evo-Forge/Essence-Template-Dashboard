@@ -32,7 +32,7 @@ class DashboardMain extends React.Component {
                     <Block classes={'brick brick-2 '}>
                       <DashboardNavigation />
                     </Block>
-                    <Block classes={'brick brick-4 border-col'}>
+                    <Block classes={'brick brick-4'}>
                       <DashboardMailbox />
                     </Block>
                     <Block classes={'brick brick-6'}>
