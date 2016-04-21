@@ -28,12 +28,56 @@
   align-items: stretch;
 }
 .dashboard-header i {
-  font-size: 20px;
+  font-size: 18px;
   vertical-align: middle;
-  padding: 0 5px;
 }
 .dashboard-header a {
   vertical-align: middle;
+  padding: 0 3px;
+}
+.dashboard-search .border-input-icon {
+  border: 1px solid lightgrey;
+}
+.dashboard-search i {
+  font-size: 24px;
+}
+.dashboard-search .with-icon {
+  width: 80%;
+  display: inline-block;
+  font-size: 14px;
+}
+.dashboard-search .with-icon .e-input {
+  border: 0;
+}
+.dashboard-search .with-icon.e-input-group .e-input:focus {
+  border-bottom: 0;
+  margin-top: 0;
+}
+.dashboard-search .with-icon.e-input:focus {
+  margin-top: 0;
+}
+.dashboard-search .fab-mini {
+  box-shadow: none;
+  vertical-align: middle;
+}
+.dashboard-search .fab-mini:hover:not(.flat) {
+  box-shadow: none;
+}
+.dashboard-search .e-nav-menu.cover ul.e-nav {
+  right: 0;
+}
+.dashboard-user .avatar {
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.dashboard-user nav {
+  margin-left: 15px;
+}
+.dashboard-navigation .e-nav-drawer {
+  position: static;
+  width: 100%;
+  z-index: 1;
+  box-shadow: none;
 }
 body {
   background: #81c784;

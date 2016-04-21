@@ -21,7 +21,7 @@ class DashboardMain extends React.Component {
                     <Block classes={'brick brick-2 e-h-start e-v-center no-margin-b'}>
                       <DashboardUser />
                     </Block>
-                    <Block classes={'brick brick-4 e-h-center e-v-center border-col no-margin-b'}>
+                    <Block classes={'brick brick-4 border-col no-margin-b'}>
                       <DashboardSearch />
                     </Block>
                     <Block classes={'brick brick-6 e-h-end e-v-center no-margin-b'}>
@@ -29,7 +29,7 @@ class DashboardMain extends React.Component {
                     </Block>
                   </Block>
                   <Block classes={'e-row e-no-margin'}>
-                    <Block classes={'brick brick-2 '}>
+                    <Block classes={'brick brick-2'}>
                       <DashboardNavigation />
                     </Block>
                     <Block classes={'brick brick-4'}>
