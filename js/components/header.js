@@ -15,8 +15,8 @@ class DashboardHeader extends React.Component {
                   Archive</Text>
               </Block>
               <Block classes={'e-text-center'}>
-                <Text type={'a'} href={'#'} className={'e-text-green-400 show'}>
-                  <Icon name={"action-delete"} className={"e-text-green-400"} />
+                <Text type={'a'} href={'#'} className={'e-text-green-600 show active'}>
+                  <Icon name={"action-delete"} className={"e-text-green-400 active"} />
                   Trash</Text>
               </Block>
               <Block classes={'e-text-center'}>

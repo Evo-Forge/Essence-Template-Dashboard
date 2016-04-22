@@ -14,14 +14,14 @@ class DashboardNavigation extends React.Component {
                   <Btn label={'New message'} ripple={true} type={'success'} className={'flat full-w e-button e-background-green-400 e-text-white'} />
                 </Block>
                 <Block>
-                  <List type={'navigation'} classes={'e-background-grey-100'}>
+                  <List type={'navigation'} classes={'e-background-grey-100  padding-b-list'}>
                     <ListItem>
                       <Text type={'label'} classes={'e-text-center e-button e-text-grey-900  padding-l-list'}>Mailboxes</Text>
                       <List type={'navigation'} classes={'e-background-grey-100 padding-l-list'}>
                         <ListItem key={'inbox'}>
                           <Text type={'a'} href={'#inbox'} className={'e-text-grey-800 padding-l-list'}>
                             <Block classes={'content e-left'}>
-                              <Text type={'small'} classes={'e-text-green-400'}>Inbox (12)</Text>
+                              <Text type={'small'} classes={'e-text-green-400 on'}>Inbox (12)</Text>
                             </Block>
                           </Text>
                         </ListItem>

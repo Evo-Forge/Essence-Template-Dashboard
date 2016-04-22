@@ -34,6 +34,17 @@
 .dashboard-header a {
   vertical-align: middle;
   padding: 0 3px;
+  width: 95px;
+}
+.dashboard-header a :hover {
+  font-weight: bold;
+  color: #43a047;
+}
+.dashboard-header a :hover i {
+  color: #43a047;
+}
+.dashboard-header .active {
+  font-weight: bold;
 }
 .dashboard-search .border-input-icon {
   border: 1px solid lightgrey;
@@ -84,6 +95,9 @@
   margin-top: -4px;
   margin-left: -10px;
 }
+.dashboard-navigation .e-nav-drawer.e-nav-drawer nav .e-navigation-wrapper .e-list-navigation:first-child {
+  padding-bottom: 183px;
+}
 .dashboard-navigation .flex-center {
   display: flex;
   justify-content: center;
@@ -93,6 +107,10 @@
 }
 .dashboard-navigation .padding-l-list {
   padding-left: 24px;
+}
+.dashboard-navigation .on {
+  color: #66bb6a;
+  font-weight: bold;
 }
 .dashboard-mailbox.selected {
   border-right: 0;
