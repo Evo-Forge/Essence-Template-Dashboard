@@ -32,7 +32,9 @@
     "less"
   ],
   "dependencies": {
-    "react-essence": "^1.x"
+    "history": "^2.1.0",
+    "react-essence": "^1.x",
+    "react-router": "^2.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.3.x",
