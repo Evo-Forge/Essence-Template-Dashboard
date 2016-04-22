@@ -77,12 +77,33 @@
 .dashboard-search .e-nav-menu.cover ul.e-nav {
   right: 0;
 }
+.dashboard-user {
+  width: 100%;
+}
 .dashboard-user .avatar {
   border-radius: 50%;
   vertical-align: middle;
 }
 .dashboard-user nav {
   margin-left: 15px;
+}
+.dashboard-user .with-icon {
+  width: 80%;
+  display: inline-block;
+  font-size: 14px;
+}
+.dashboard-user .with-icon .e-input {
+  border: 0;
+}
+.dashboard-user .with-icon.e-input-group .e-input:focus {
+  border-bottom: 0;
+  margin-top: 0;
+}
+.dashboard-user .with-icon.e-input:focus {
+  margin-top: 0;
+}
+.dashboard-user .input-picture {
+  border: 1px solid #ccc;
 }
 .dashboard-navigation .full-w {
   width: 100%;
@@ -112,10 +133,6 @@
   color: #66bb6a;
   font-weight: bold;
 }
-.dashboard-mailbox.selected {
-  border-right: 0;
-  border-left: 3px solid #66bb6a;
-}
 .dashboard-mailbox .e-flex-container {
   display: flex;
 }
@@ -126,8 +143,12 @@
   justify-content: space-between;
 }
 .dashboard-mailbox .maillist {
-  border-right: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.dashboard-mailbox .selected {
+  border-right: 0;
+  border-left: 3px solid #66bb6a;
 }
 .dashboard-conversation .e-flex-container {
   display: flex;
@@ -143,7 +164,7 @@
   justify-content: space-around;
 }
 .dashboard-conversation img {
-  max-height: 80px;
+  max-height: 60px;
   padding: 10px 15px 10px 0;
 }
 .dashboard-conversation .adjust-w {
@@ -153,16 +174,25 @@
   width: 43%;
 }
 .dashboard-conversation .reply {
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid #eee;
+}
+.dashboard-conversation .padding-25 {
+  padding: 0 25px;
+}
+.dashboard-conversation p {
+  margin: 0;
 }
 .dashboard-conversation .reply-form {
-  border: 1px solid lightgrey;
+  border: 1px solid #eee;
 }
-.dashboard-conversation .reply-form .e-input,
-.dashboard-conversation .reply-form .e-input:focus {
+.dashboard-conversation .reply-form .e-input-group {
+  width: 100%;
+}
+.dashboard-conversation .reply-form .e-input-group .e-input,
+.dashboard-conversation .reply-form .e-input-group .e-input:focus {
   border-bottom: 0;
 }
-.dashboard-conversation .reply-form .e-input-efects {
+.dashboard-conversation .reply-form .e-input-group .e-input-efects {
   display: none;
 }
 body {

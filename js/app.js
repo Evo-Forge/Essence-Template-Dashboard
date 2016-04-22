@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ClassNames from 'classnames';
-
+import { Router, Route, IndexRoute, browserHistory, hashHistory } from 'react-router';
 /* Use of components */
 
 // Essence core
