@@ -2,11 +2,11 @@
   height: 800px;
 }
 .dashboard-main .border-row {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #eee;
 }
 .dashboard-main .border-col {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
 }
 .dashboard-main .no-margin-b {
   margin-bottom: 0;
@@ -73,11 +73,79 @@
 .dashboard-user nav {
   margin-left: 15px;
 }
+.dashboard-navigation .full-w {
+  width: 100%;
+}
 .dashboard-navigation .e-nav-drawer {
   position: static;
-  width: 100%;
+  width: 112%;
   z-index: 1;
   box-shadow: none;
+  margin-top: -4px;
+  margin-left: -10px;
+}
+.dashboard-navigation .flex-center {
+  display: flex;
+  justify-content: center;
+}
+.dashboard-navigation i {
+  font-size: xx-small;
+}
+.dashboard-navigation .padding-l-list {
+  padding-left: 24px;
+}
+.dashboard-mailbox.selected {
+  border-right: 0;
+  border-left: 3px solid #66bb6a;
+}
+.dashboard-mailbox .e-flex-container {
+  display: flex;
+}
+.dashboard-mailbox .e-flex-container.e-align-row {
+  flex-direction: row;
+}
+.dashboard-mailbox .e-flex-container.space-between {
+  justify-content: space-between;
+}
+.dashboard-mailbox .maillist {
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+.dashboard-conversation .e-flex-container {
+  display: flex;
+}
+.dashboard-conversation .e-flex-container.e-align-row {
+  flex-direction: row;
+  align-items: center;
+}
+.dashboard-conversation .e-flex-container.space-between {
+  justify-content: space-between;
+}
+.dashboard-conversation .e-flex-container.space-around {
+  justify-content: space-around;
+}
+.dashboard-conversation img {
+  max-height: 80px;
+  padding: 10px 15px 10px 0;
+}
+.dashboard-conversation .adjust-w {
+  width: 100%;
+}
+.dashboard-conversation .from {
+  width: 43%;
+}
+.dashboard-conversation .reply {
+  border-top: 1px solid lightgrey;
+}
+.dashboard-conversation .reply-form {
+  border: 1px solid lightgrey;
+}
+.dashboard-conversation .reply-form .e-input,
+.dashboard-conversation .reply-form .e-input:focus {
+  border-bottom: 0;
+}
+.dashboard-conversation .reply-form .e-input-efects {
+  display: none;
 }
 body {
   background: #81c784;
