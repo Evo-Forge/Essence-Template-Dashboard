@@ -25,10 +25,10 @@ class DashboardReply extends React.Component {
           </Block>
         </Block>
         <Block>
-          <Text type={'p'} classes={'e-subhead e-text-black'}>
+          <Text type={'p'} classes={'e-subhead e-text-black padding-25'}>
             Michael
           </Text>
-          <Text type={'p'} classes={'e-subhead e-text-black'}>
+          <Text type={'p'} classes={'e-subhead e-text-black padding-25'}>
             Hamburger brisket cupim, porchetta landjaeger alcatra doner jowl  turkey pork loin. Ball tip shankle andouille frankfurter shank pork loin pork. Porchetta landjaeger alcatra doner.
           </Text>
         </Block>
@@ -43,7 +43,7 @@ class DashboardReplyForm extends React.Component {
 
   render() {
     return (
-      <Block classes={'reply-form e-flex-container e-align-row space-between e-background-grey-100'}>
+      <Block classes={'reply-form e-flex-container e-align-row space-between e-background-grey-100 e-margin-top-15'}>
         <Input type={'textarea'} name={'label'} rows={3} placeholder={'Type here to reply...'}/>
         <Btn label={'Send'} ripple={true} type={'success'} className={'flat e-background-grey-200'} />
       </Block>
@@ -57,7 +57,7 @@ class DashboardConversation extends React.Component {
         return (
         	<Block classes={'dashboard-conversation'}>
             <Block>
-              <Text type={'h1'} classes={'e-display-1 e-text-black'}>Dashboard ideas</Text>
+              <Text type={'h1'} classes={'e-display-1 e-text-black padding-25'}>Dashboard ideas</Text>
             </Block>
             <Block classes={'e-flex-container e-align-row'}>
               <Icon name={"image-panorama-fisheye"} className={"e-text-grey-400"} />
@@ -74,19 +74,19 @@ class DashboardConversation extends React.Component {
               </Block>
             </Block>
             <Block>
-              <Text type={'p'} classes={'e-subhead e-text-black'}>
+              <Text type={'p'} classes={'e-subhead e-text-black padding-25'}>
                 Hello Carmen!
               </Text>
-              <Text type={'p'} classes={'e-subhead e-text-black'}>
+              <Text type={'p'} classes={'e-subhead e-text-black padding-25'}>
                 Hamburger brisket cupim, porchetta landjaeger alcatra doner jowl  turkey pork loin. Ball tip shankle andouille frankfurter shank pork loin pork. Porchetta landjaeger alcatra doner.
               </Text>
-              <Text type={'p'} classes={'e-subhead e-text-black'}>
+              <Text type={'p'} classes={'e-subhead e-text-black padding-25'}>
                 Tri-tip chuck alcatra, pig bacon pancetta flank brisket filet.
               </Text>
-              <Text type={'p'} classes={'e-subhead e-text-black'}>Chicken,</Text>
-              <Text type={'p'} classes={'e-subhead e-text-black'}>Michael Frankfurter</Text>
+              <Text type={'p'} classes={'e-subhead e-text-black padding-25'}>Chicken,</Text>
+              <Text type={'p'} classes={'e-subhead e-text-black padding-25'}>Michael Frankfurter</Text>
               <Block>
-                <Block classes={'e-subhead e-text-black'}>
+                <Block classes={'e-subhead e-text-black padding-25'}>
                   <Text type={'span'} classes={'e-caption e-text-grey-400 e-text-uppercase'}>
                     Attachments
                   </Text>
@@ -95,8 +95,10 @@ class DashboardConversation extends React.Component {
                   </Text>
                   <Btn icon={'file-file-download'} classes={'e-text-grey-400 e-background-grey-100'} />
                 </Block>
-                <Image src={'../assets/img/img1.png'} />
-                <Image src={'../assets/img/img2.jpg'} />
+                <Block classes={'padding-25'}>
+                  <Image src={'../assets/img/img1.png'} />
+                  <Image src={'../assets/img/img2.jpg'} />
+                </Block>
               </Block>
             </Block>
             <DashboardReply />

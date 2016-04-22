@@ -20,7 +20,7 @@ class DashboardMaillist extends React.Component {
             <Text type={'span'} classes={'e-subhead e-text-grey-300'}> 10.34 AM</Text>
           </Block>
           <Text type={'p'} classes={'e-subhead e-text-black'}> Christopher P. Smith </Text>
-          <Text type={'p'} classes={'e-subhead e-text-grey-600'}> Hello there! As a reader of our ebooks, I... </Text>
+          <Text type={'p'} classes={'e-subhead e-text-grey-600'}> Hello there! As a reader of our ebooks, I would like... </Text>
         </Block>
       </Block>
     );
@@ -31,9 +31,9 @@ class DashboardMailbox extends React.Component {
 
     render() {
         return (
-        	<Block classes={'dashboard-mailbox'}>
+        	<Block className={'dashboard-mailbox'}>
             <DashboardMaillist />
-            <DashboardMaillist classes={'selected'}/>
+            <DashboardMaillist className={"selected"} />
             <DashboardMaillist />
             <DashboardMaillist />
             <DashboardMaillist />
