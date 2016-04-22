@@ -43,7 +43,7 @@ class DashboardReplyForm extends React.Component {
 
   render() {
     return (
-      <Block classes={'reply-form e-flex-container e-align-row space-between e-background-grey-100'}>
+      <Block classes={'reply-form e-flex-container e-align-row space-between e-background-grey-100 e-margin-top-15'}>
         <Input type={'textarea'} name={'label'} rows={3} placeholder={'Type here to reply...'}/>
         <Btn label={'Send'} ripple={true} type={'success'} className={'flat e-background-grey-200'} />
       </Block>
@@ -57,7 +57,7 @@ class DashboardConversation extends React.Component {
         return (
         	<Block classes={'dashboard-conversation'}>
             <Block>
-              <Text type={'h1'} classes={'e-display-1 e-text-black'}>Dashboard ideas</Text>
+              <Text type={'h1'} classes={'e-display-1 e-text-black padding-25'}>Dashboard ideas</Text>
             </Block>
             <Block classes={'e-flex-container e-align-row'}>
               <Icon name={"image-panorama-fisheye"} className={"e-text-grey-400"} />

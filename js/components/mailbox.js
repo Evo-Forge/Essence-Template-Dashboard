@@ -31,9 +31,9 @@ class DashboardMailbox extends React.Component {
 
     render() {
         return (
-        	<Block classes={'dashboard-mailbox'}>
+        	<Block className={'dashboard-mailbox'}>
             <DashboardMaillist />
-            <DashboardMaillist classes={'selected'}/>
+            <DashboardMaillist className={"selected"} />
             <DashboardMaillist />
             <DashboardMaillist />
             <DashboardMaillist />
