@@ -14,6 +14,7 @@ class DashboardSearch extends React.Component {
               <Text className={'e-text-black'}>Mark Unread</Text>
               <Text className={'e-text-black'}>Mark Important</Text>
               <Text className={'e-text-black'}>Mark Finances</Text>
+              <Text className={'e-text-black'}>Mark Dashboard</Text>
             </Menu>
 			    </Block>
         );

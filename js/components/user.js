@@ -43,19 +43,9 @@ class DashboardUser extends React.Component {
               <Text className={'e-text-black'}>Logout</Text>
             </Menu>
             <Dialog visible={this.state.open} onOpen={this.dialogOpened.bind(this)} onClose={this.dialogClosed.bind(this)}>
-              <DialogHeader className={'e-text-left'}>
-                <Text type={'p'} classes={'e-text-left e-headline'}>Change your profile picture</Text>
-              </DialogHeader>
               <DialogContent>
-                <Block className={'input-picture e-text-center'}>
-                  <Input type={'text'} name={'label'} classes={'with-icon'} />
-                  <Btn type={'default'} label={'Browse'} ripple={true} className={'flat e-text-white e-no-margin'} />
-                </Block>
+                <Image src={'assets/img/avatar.jpg'} alt={'profile picture'} className={'e-img-rsp'}/>
               </DialogContent>
-              <DialogFooter>
-                <Btn type={'succes'} label={'OK'} onClick={this.hideDialog.bind(this)} className={'flat'} />
-                <Btn type={'info'} label={'Cancel'} onClick={this.hideDialog.bind(this)} className={'flat'} />
-              </DialogFooter>
             </Dialog>
 			    </Block>
         );
