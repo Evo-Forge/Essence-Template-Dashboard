@@ -6,11 +6,17 @@ import { Btn, Block, Text, Utils, List, ListItem, Icon} from 'react-essence';
 class DashboardMaillist extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+        classes: ClassNames(
+            this.props.classes,
+            this.props.className
+        )
+    };
   }
 
   render() {
     return (
-      <Block classes={'maillist e-flex-container e-align-row'}>
+      <Block classes={ClassNames('maillist e-flex-container e-align-row', this.state.classes)}>
         <Block>
           <Icon name={"action-grade"} className={"e-text-yellow-500 e-title"} />
         </Block>
@@ -33,7 +39,7 @@ class DashboardMailbox extends React.Component {
         return (
         	<Block className={'dashboard-mailbox'}>
             <DashboardMaillist />
-            <DashboardMaillist />
+            <DashboardMaillist className={'selected'} />
             <DashboardMaillist />
             <DashboardMaillist />
             <DashboardMaillist />
