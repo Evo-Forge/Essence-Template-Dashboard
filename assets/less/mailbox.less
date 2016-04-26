@@ -18,9 +18,31 @@
   .maillist {
     border-right: 1px solid #eee;
     border-bottom: 1px solid #eee;
+    padding-top: 10px;
   }
-  .selected {
-    border-right: 0;
-    border-left: 3px solid #66bb6a;
+  .inline {
+    display: inline;
   }
+  label {
+    display: inline-block;
+    padding: 0 3px;
+    margin-right: 3px;
+    font-size: 10px;
+    vertical-align: middle;
+  }
+  .hide {
+    &.important:nth-child(1) {
+      background-color: #9ccc65;
+      display: inline-block!important;
+    }
+    &.finances:nth-child(2) {
+      background-color: #7e57c2;
+      display: inline-block!important;
+    }
+    &.dashboard:nth-child(3) {
+      background-color: #00b0ff;
+      display: inline-block!important;
+    }
+  }
+
 }

@@ -20,12 +20,8 @@
 }
 .dashboard-header .flex {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-}
-.dashboard-header .flex.v-stretch {
-  align-items: stretch;
 }
 .dashboard-header i {
   font-size: 18px;
@@ -84,28 +80,8 @@
 .dashboard-user nav {
   margin-left: 15px;
 }
-.dashboard-user .with-icon {
-  width: 80%;
-  display: inline-block;
-  font-size: 14px;
-}
-.dashboard-user .with-icon .e-input {
-  padding-bottom: 11px;
-}
-.dashboard-user .with-icon.e-input-group .e-input:focus {
-  border-bottom: 0;
-  margin-top: 0;
-}
-.dashboard-user .with-icon.e-input-group .e-input:focus:not(textarea):not(select),
-.dashboard-user .with-icon .e-input-group .e-input:not(textarea):not(selected) {
-  padding-bottom: 11px;
-}
 .dashboard-user .e-dialog {
   max-width: 35%;
-}
-.dashboard-user .browse-btn {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
 }
 .dashboard-navigation .full-w {
   width: 100%;
@@ -135,6 +111,10 @@
   color: #66bb6a;
   font-weight: bold;
 }
+.dashboard-mailbox .selected {
+  border-right: 0!important;
+  border-left: 4px solid #66bb6a;
+}
 .dashboard-mailbox .e-flex-container {
   display: flex;
 }
@@ -144,13 +124,35 @@
 .dashboard-mailbox .e-flex-container.space-between {
   justify-content: space-between;
 }
+.dashboard-mailbox i {
+  padding: 0 10px;
+}
 .dashboard-mailbox .maillist {
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
+  padding-top: 10px;
 }
-.dashboard-mailbox .selected {
-  border-right: 0;
-  border-left: 3px solid #66bb6a;
+.dashboard-mailbox .inline {
+  display: inline;
+}
+.dashboard-mailbox label {
+  display: inline-block;
+  padding: 0 3px;
+  margin-right: 3px;
+  font-size: 10px;
+  vertical-align: middle;
+}
+.dashboard-mailbox .hide.important:nth-child(1) {
+  background-color: #9ccc65;
+  display: inline-block !important;
+}
+.dashboard-mailbox .hide.finances:nth-child(2) {
+  background-color: #7e57c2;
+  display: inline-block !important;
+}
+.dashboard-mailbox .hide.dashboard:nth-child(3) {
+  background-color: #00b0ff;
+  display: inline-block !important;
 }
 .dashboard-conversation .e-flex-container {
   display: flex;
