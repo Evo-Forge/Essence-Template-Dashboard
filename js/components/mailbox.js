@@ -31,7 +31,7 @@ class DashboardMaillist extends React.Component {
             <Text type={'label'} classes={ClassNames('e-text-center e-text-uppercase e-text-white hide', this.state.classes)}> dashboard </Text>
             <Text type={'p'} classes={'e-subhead e-text-black inline'}> Dashboard ideas </Text>
           </Block>
-          <Text type={'p'} classes={'e-subhead e-text-grey-600'}> Hello there! As a reader of our ebooks, I would like... </Text>
+          <Text type={'p'} classes={'e-subhead e-text-grey-600'}> Hello there! As a reader of our ebooks, I would... </Text>
         </Block>
       </Block>
     );

@@ -57,7 +57,7 @@ class DashboardUser extends React.Component {
                 </Block>
               </DialogContent>
               <DialogFooter>
-                <Btn type={'succes'} label={'OK'} onClick={this.hideDialog.bind(this)} className={'flat'} />
+                <Btn type={'success'} label={'OK'} onClick={this.hideDialog.bind(this)} className={'flat'} />
                 <Btn type={'info'} label={'Cancel'} onClick={this.hideDialog.bind(this)} className={'flat'} />
               </DialogFooter>
             </Dialog>
